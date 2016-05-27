@@ -1,0 +1,6 @@
+framework module Pods_IOS9SwiftTakePhotoTutorial {
+  umbrella header "Pods-IOS9SwiftTakePhotoTutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
