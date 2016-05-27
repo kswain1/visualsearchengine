@@ -1,1 +1,0 @@
-../../../CloudSight/CloudSight/CloudSightUploadProgressDelegate.h
