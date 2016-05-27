@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOS9SwiftTakePhotoTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VSE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -27,25 +27,19 @@
                                     <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sEO-5y-St8"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Object Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Px-mG-ikW">
-                                <rect key="frame" x="168" y="11" width="236" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7Er-Br-Eqf" firstAttribute="top" secondItem="JNi-Ld-3NM" secondAttribute="bottom" constant="8" symbolic="YES" id="6du-gl-4mK"/>
-                            <constraint firstItem="JNi-Ld-3NM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="K10-Wa-3hm"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7Er-Br-Eqf" secondAttribute="bottom" constant="8" symbolic="YES" id="MTg-nx-GKq"/>
-                            <constraint firstItem="JNi-Ld-3NM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QWt-kX-LdV"/>
-                            <constraint firstAttribute="trailing" secondItem="JNi-Ld-3NM" secondAttribute="trailing" id="Wp2-SQ-aNC"/>
-                            <constraint firstItem="JNi-Ld-3NM" firstAttribute="centerX" secondItem="7Er-Br-Eqf" secondAttribute="centerX" id="gBv-c4-GFp"/>
+                            <constraint firstAttribute="trailing" secondItem="JNi-Ld-3NM" secondAttribute="trailing" id="6E3-JY-TSv"/>
+                            <constraint firstItem="7Er-Br-Eqf" firstAttribute="top" secondItem="JNi-Ld-3NM" secondAttribute="bottom" constant="8" symbolic="YES" id="VSz-xT-thS"/>
+                            <constraint firstItem="JNi-Ld-3NM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="mjz-ID-nw3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7Er-Br-Eqf" secondAttribute="bottom" constant="8" symbolic="YES" id="pCq-0k-RIk"/>
+                            <constraint firstItem="JNi-Ld-3NM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rfs-hc-EST"/>
+                            <constraint firstItem="JNi-Ld-3NM" firstAttribute="centerX" secondItem="7Er-Br-Eqf" secondAttribute="centerX" id="yRx-em-WU5"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="JNi-Ld-3NM" id="KmG-Ef-Q1V"/>
-                        <outlet property="objectName" destination="1Px-mG-ikW" id="LSJ-B5-dET"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
