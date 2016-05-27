@@ -40,6 +40,13 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZe-3e-3rx">
+                                        <rect key="frame" x="39" y="8" width="39" height="30"/>
+                                        <state key="normal" title="Reset"/>
+                                        <connections>
+                                            <action selector="restartCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMy-5p-DUt"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="JNi-Ld-3NM" secondAttribute="trailing" id="Ffd-nC-Ly9"/>
@@ -83,6 +90,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="iH3-t6-CFt" id="u44-ZF-rHJ"/>
                         <outlet property="imageView" destination="JNi-Ld-3NM" id="KmG-Ef-Q1V"/>
+                        <outlet property="restartLabel" destination="JZe-3e-3rx" id="YYN-Mc-Bfh"/>
                         <outlet property="scrollContainerView" destination="X5w-3i-88A" id="pja-vo-oLB"/>
                         <outlet property="scrollableHeightConstraint" destination="rUm-zp-inB" id="dCt-mv-iaV"/>
                         <outlet property="titleLabel" destination="huv-H2-KHS" id="sbg-16-fTE"/>
@@ -95,17 +103,7 @@
         <!--View Controller-->
         <scene sceneID="Gen-DT-Gol">
             <objects>
-                <viewController id="4vA-us-s9q" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Er3-bc-1OB"/>
-                        <viewControllerLayoutGuide type="bottom" id="0e1-06-Qha"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9i3-Sf-IeU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
+                <viewController id="4vA-us-s9q" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fU9-gR-Oca" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="791" y="306"/>

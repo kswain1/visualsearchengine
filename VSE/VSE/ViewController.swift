@@ -11,6 +11,7 @@ import Alamofire
 import CloudSight
 
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, CloudSightImageRequestDelegate, CloudSightQueryDelegate {
+    @IBOutlet weak var restartLabel: UIButton!
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
@@ -33,6 +34,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         self.scrollableHeightConstraint.constant = screenRect.height * 2
         self.activityIndicator.hidden = true
         self.titleLabel.hidden = true
+        self.restartLabel.hidden = true
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -151,7 +153,10 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         }
         self.activityIndicator.hidden = true
         self.titleLabel.hidden = false
+        self.camera.stop()
         self.activityIndicator.stopAnimating()
+        self.restartLabel.hidden = false
+        
     }
     
     func cloudSightQueryDidFail(query: CloudSightQuery!, withError error: NSError!) {
@@ -160,6 +165,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         self.activityIndicator.stopAnimating()
     }
     
+    @IBAction func restartCamera(sender: AnyObject) {
+        self.camera.start()
+        self.restartLabel.hidden = true
+        self.titleLabel.hidden = true
+    }
 //        
 //        Alamofire.request(
 //            .GET,
