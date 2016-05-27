@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C9349CA66E5EBF6C7D4B5549'
+               BlueprintIdentifier = 'ED29B1FACD10D53A11B5C9AF'
                BlueprintName = 'BFOAuth'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'BFOAuth.framework'>

@@ -87,11 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-VSE/Alamofire.framework"
   install_framework "Pods-VSE/BFOAuth.framework"
   install_framework "Pods-VSE/CloudSight.framework"
+  install_framework "Pods-VSE/LLSimpleCamera.framework"
   install_framework "Pods-VSE/RequestUtils.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-VSE/Alamofire.framework"
   install_framework "Pods-VSE/BFOAuth.framework"
   install_framework "Pods-VSE/CloudSight.framework"
+  install_framework "Pods-VSE/LLSimpleCamera.framework"
   install_framework "Pods-VSE/RequestUtils.framework"
 fi

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '70C566D88295600FDCFCF42C'
+               BlueprintIdentifier = 'D35F8B3EF383EA09AF365918'
                BlueprintName = 'CloudSight'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CloudSight.framework'>

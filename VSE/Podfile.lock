@@ -4,16 +4,19 @@ PODS:
   - CloudSight (1.0.3):
     - BFOAuth (~> 1.0)
     - RequestUtils (~> 1.1)
+  - LLSimpleCamera (4.2.0)
   - RequestUtils (1.1.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.1.2)
   - CloudSight (~> 1.0)
+  - LLSimpleCamera (~> 4.1)
 
 SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
   BFOAuth: e3c2e4eaae862a89bc301ed6f292d3cd0d6a107b
   CloudSight: 7974bacb22ec2db1bfb0f0242d9be7f442a78d77
+  LLSimpleCamera: ed7813ce4827ff3e34c6af159c99b5b56e54d1c6
   RequestUtils: 0f04f89abca3936c6566e2f4c3ce5d252036bc89
 
 COCOAPODS: 0.39.0

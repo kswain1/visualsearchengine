@@ -13,6 +13,7 @@
 		1F1D11961CF8050B007EC297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D11941CF8050B007EC297 /* LaunchScreen.storyboard */; };
 		1F1D119F1CF805A4007EC297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D119D1CF805A4007EC297 /* Main.storyboard */; };
 		38AB73E0C30A4139C504F7D5 /* Pods_VSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F866BFF49CD92D491493CAF /* Pods_VSE.framework */; };
+		887D59551CF85273002C3A53 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887D59541CF85273002C3A53 /* CameraButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		1F1D11971CF8050B007EC297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F1D119E1CF805A4007EC297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8697289605E4E4FDF346967F /* Pods-VSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSE.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSE/Pods-VSE.release.xcconfig"; sourceTree = "<group>"; };
+		887D59531CF840A3002C3A53 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		887D59541CF85273002C3A53 /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
 		8F866BFF49CD92D491493CAF /* Pods_VSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CA7BC8E54284AB1028E919 /* Pods-VSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSE/Pods-VSE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +70,8 @@
 				1F1D11921CF8050B007EC297 /* Assets.xcassets */,
 				1F1D11941CF8050B007EC297 /* LaunchScreen.storyboard */,
 				1F1D11971CF8050B007EC297 /* Info.plist */,
+				887D59531CF840A3002C3A53 /* Bridging-Header.h */,
+				887D59541CF85273002C3A53 /* CameraButton.swift */,
 			);
 			path = VSE;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F1D118E1CF8050B007EC297 /* ViewController.swift in Sources */,
+				887D59551CF85273002C3A53 /* CameraButton.swift in Sources */,
 				1F1D118C1CF8050B007EC297 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.VSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VSE/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -348,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.VSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VSE/Bridging-Header.h";
 			};
 			name = Release;
 		};
