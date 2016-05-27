@@ -56,7 +56,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZe-3e-3rx">
-                                        <rect key="frame" x="0.0" y="0.0" width="39" height="30"/>
+                                        <rect key="frame" x="8" y="15" width="39" height="30"/>
                                         <state key="normal" title="Reset"/>
                                         <connections>
                                             <action selector="restartCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMy-5p-DUt"/>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AF38024DE8D2DFE71CDCBF9B'
-               BlueprintName = 'LLSimpleCamera'
+               BlueprintIdentifier = '35B9A0EB876F770C1335CDBCEC52AC22'
+               BlueprintName = 'RequestUtils'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'LLSimpleCamera.framework'>
+               BuildableName = 'RequestUtils.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
